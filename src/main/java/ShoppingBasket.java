@@ -24,6 +24,10 @@ public class ShoppingBasket {
         this.items.clear();
     }
 
+    public ArrayList<Item> getWholeItemsArray() {
+        return this.items;
+    }
+
     public int getTotal() {
         int total = 0;
         for(Item item : this.items){
@@ -31,10 +35,19 @@ public class ShoppingBasket {
         } return total;
     }
 
-    public int getTotalAfterDiscounts() {
-        double total;
-        for(Item item : this.items){
-             total += item.getDiscount(item);
-        } return total;
+//    public int getTotalAfterDiscounts() {
+////        double total;
+////        for(Item item : this.items){
+////             total += item.getDiscount(item);
+////        } return total;
+////    }
+
+    public double getGrandTotalAfterDiscounts() {
+
+        ArrayList<Item> items = getWholeItemsArray();
+        double total = getTotal();
+
+        getGrandTotalAfterDiscounts(ArrayList<Item> items, double total);
+
     }
 }

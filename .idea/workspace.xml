@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca490e63-5710-484d-b295-1ffea8ab3cab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PercentageDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PercentageDiscountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Discount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Discounting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Discounting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ShoppingBasket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ShoppingBasketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ShoppingBasketTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +52,21 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunManager" selected="JUnit.ShoppingBasketTest.should_return_total_after_discounts">
-    <configuration name="ItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Basket_lab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ItemTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ShoppingBasketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Basket_lab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ShoppingBasketTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingBasketTest.get_whole_array" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Basket_lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingBasketTest" />
+      <option name="METHOD_NAME" value="get_whole_array" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,10 +104,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ShoppingBasketTest.should_return_total_after_discounts" />
+        <item itemvalue="JUnit.ShoppingBasketTest.get_whole_array" />
         <item itemvalue="JUnit.ShoppingBasketTest" />
         <item itemvalue="JUnit.ShoppingBasketTest.should_calc_total" />
         <item itemvalue="JUnit.ShoppingBasketTest.should_remove_item_from_basket" />
-        <item itemvalue="JUnit.ItemTest" />
       </list>
     </recent_temporary>
   </component>
@@ -123,21 +129,25 @@
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="533" y="136" key="#com.intellij.ide.util.MemberChooser/0.23.1440.810@0.23.1440.810" timestamp="1582125398489" />
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1582125082514">
+    <state x="425" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582126557195">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1582125082514" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1582125082513">
+    <state x="425" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.810@0.23.1440.810" timestamp="1582126557195" />
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1582128643304">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1582125082513" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1582125082513">
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1582128643304" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1582128643303">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1582125082513" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1582125082514">
+    <state width="1398" height="208" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1582128643303" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1582128643302">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1582125082514" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1582128643302" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1582128643304">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state width="1398" height="208" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1582128643304" />
   </component>
 </project>

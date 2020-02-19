@@ -50,11 +50,28 @@ public class ShoppingBasketTest {
         assertEquals(15, shoppingBasket.getTotal());
     }
 
+//    @Test
+//    public void should_return_total_after_discounts() {
+//        shoppingBasket.canAddItemToBasket(item);
+//        shoppingBasket.canAddItemToBasket(item);
+//        shoppingBasket.canAddItemToBasket(item);
+//        PercentageDiscount discount = new PercentageDiscount();
+//        item.addDiscount(discount);
+//        assertEquals(15, shoppingBasket.getTotalAfterDiscounts());
+//    }
+
+    @Test
+    public void get_whole_array() {
+        shoppingBasket.canAddItemToBasket(item);
+        shoppingBasket.canAddItemToBasket(item);
+        assertEquals(2, shoppingBasket.getWholeItemsArray().size());
+    }
+
     @Test
     public void should_return_total_after_discounts() {
         shoppingBasket.canAddItemToBasket(item);
         shoppingBasket.canAddItemToBasket(item);
         shoppingBasket.canAddItemToBasket(item);
-        assertEquals(15, shoppingBasket.getTotalAfterDiscounts());
+        assertEquals(10, shoppingBasket.getGrandTotalAfterDiscounts());
     }
 }

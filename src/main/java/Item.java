@@ -20,8 +20,8 @@ public class Item {
         return cost;
     }
 
-    public void getDiscount(item) {
-        
-    }
+//    public void getDiscount() {
+//        this.discounts.get(0).getDiscount();
+//    }
 
 }

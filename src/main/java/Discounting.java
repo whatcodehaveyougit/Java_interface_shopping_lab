@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public interface Discounting {
-    public int getDiscount(double fullPrice);
+    double getTotalAfterDiscounts(ArrayList<Item> items, double total );
 }
