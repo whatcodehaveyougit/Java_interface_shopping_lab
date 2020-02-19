@@ -1,11 +1,15 @@
+import java.util.ArrayList;
+
 public class Item {
 
     private String name;
     private int cost;
+    private ArrayList <Discounting> discounts;
 
     public Item(String name, int cost) {
         this.name = name;
         this.cost = cost;
+        this.discounts = new ArrayList<Discounting>();
     }
 
     public String getName() {
@@ -14,6 +18,10 @@ public class Item {
 
     public int getCost() {
         return cost;
+    }
+
+    public void getDiscount(item) {
+        
     }
 
 }

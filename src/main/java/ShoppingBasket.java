@@ -32,8 +32,7 @@ public class ShoppingBasket {
     }
 
     public int getTotalAfterDiscounts() {
-//        int total = getTotal();
-//        getDiscount(total);
+        double total;
         for(Item item : this.items){
              total += item.getDiscount(item);
         } return total;

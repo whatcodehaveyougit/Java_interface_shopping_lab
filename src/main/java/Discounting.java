@@ -1,3 +1,3 @@
-//public interface Discounting {
-//    public int getDiscount(fullPrice);
-//}
+public interface Discounting {
+    public int getDiscount(double fullPrice);
+}

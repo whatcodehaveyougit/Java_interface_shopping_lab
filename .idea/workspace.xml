@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca490e63-5710-484d-b295-1ffea8ab3cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BuyOneGetOneFree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BuyOneGetOneFree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Discount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Discounting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Discounting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ShoppingBasket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ShoppingBasket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ShoppingBasketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ShoppingBasketTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,10 +119,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1582122237597">
+    <state x="533" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1582125398489">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state x="533" y="136" key="#com.intellij.ide.util.MemberChooser/0.23.1440.810@0.23.1440.810" timestamp="1582122237597" />
+    <state x="533" y="136" key="#com.intellij.ide.util.MemberChooser/0.23.1440.810@0.23.1440.810" timestamp="1582125398489" />
     <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1582125082514">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
